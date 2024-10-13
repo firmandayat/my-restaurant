@@ -1,5 +1,5 @@
 import "regenerator-runtime"; /* for async await transpile */
-import "../styles/main.scss";
+import "../styles/main.css";
 
 const toggle = document.querySelector(".toggle-btn");
 const toggleBtn = document.querySelector(".toggle-btn i");

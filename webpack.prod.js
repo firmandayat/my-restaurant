@@ -19,9 +19,9 @@ module.exports = merge(common, {
       {
         test: /\.s[ac]ss$/i,
         use: [
-          "style-loader", // Injects styles into the DOM
-          "css-loader", // Turns CSS into CommonJS modules
-          "sass-loader", // Compiles Sass to CSS
+          "style-loader", 
+          "css-loader", 
+          "sass-loader", 
         ],
       },
     ],
