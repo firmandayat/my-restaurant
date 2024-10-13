@@ -18,7 +18,7 @@ body, button {
 .skip-link{
   padding: 10px;
   z-index: 3;
-background-color: #4F6F52;
+  background-color: #4F6F52;
   font-size: large;
   position: fixed;
   top: -70px;
@@ -75,6 +75,10 @@ header.nav ul.list {
   border: none;
   width: 50px;
   height: 50px !important;
+}
+
+.toggle-btn i{
+  font-size: 60px;
 }
 
 .dropdown-menu {
@@ -232,7 +236,7 @@ footer .footer {
     }
 
   header.nav{
-    height: 55px;
+    height: 65px;
   }
 
   .bg-banner {
@@ -282,7 +286,7 @@ footer .footer {
   }
 
   header.nav{
-    height: 40px;
+    height: 60px;
   }
 
   h1, h2, h4{
@@ -294,7 +298,7 @@ footer .footer {
   }
 
 .bg-banner {
-  height: 30%;
+  margin-top: 55px;
   object-fit: cover;
 }
 
