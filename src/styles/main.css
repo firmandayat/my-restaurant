@@ -15,6 +15,18 @@ body, button {
   padding: 0;
 }
 
+.skip-link{
+  z-index: 3;
+  color: #4F6F52;
+  font-size: large;
+  position: fixed;
+  top: 20px;
+  text-decoration: none;
+  left: 15px;
+  height: 45px;
+  width: 45px;
+}
+
 header.nav {
   top:0;
   width: 100%;
@@ -55,6 +67,8 @@ header.nav ul.list {
   display: none;
   background-color: transparent;
   border: none;
+  width: 50px;
+  height: 50px !important;
 }
 
 .dropdown-menu {
@@ -148,8 +162,8 @@ h2{
   margin-bottom: 20px;
   background-color: #4F6F52;
   border-radius: 10px;
-  width: 100px;
-  height: 30px;
+  width: 80px;
+  height: 45px;
   font-weight: bold;
   border-style: none;
   margin-top: 10px;
@@ -206,6 +220,10 @@ footer .footer {
     gap: 30px;
   }
 
+  header.nav{
+    height: 55px;
+  }
+
   .bg-banner {
     height: 30%;
     object-fit: cover;
@@ -236,6 +254,14 @@ footer .footer {
     grid-template-columns: repeat(1, 1fr);
     grid-auto-columns: 100px;
     gap: 30px;
+  }
+
+  .skip-link{
+    top: 12px;
+  }
+
+  header.nav{
+    height: 40px;
   }
 
   h1, h2, h4{
